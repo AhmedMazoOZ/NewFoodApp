@@ -6,6 +6,8 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 import java.io.Serializable;
+import java.util.Date;
+
 @Entity(tableName = "favorite_recipes")
 public class Recipe implements Serializable {
 

@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.foodplanner.Calander.Calander;
-import com.example.foodplanner.Country_Area_Page.Category_Country_Page;
 import com.example.foodplanner.FavoriteScrren.FavoriteScreen;
 import com.example.foodplanner.FavoriteScrren.RecipeDatabase;
 import com.example.foodplanner.HomeScreen.View.Model.Area;
@@ -25,14 +24,14 @@ import com.example.foodplanner.HomeScreen.View.View.Adapter.CategoryAdapter;
 import com.example.foodplanner.HomeScreen.View.View.Adapter.RandomAdapter;
 import com.example.foodplanner.Login.View.LogIn;
 import com.example.foodplanner.R;
-import com.example.foodplanner.SearchScreen.Search;
+import com.example.foodplanner.SearchFeature.View.Search;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Home_Activity extends AppCompatActivity implements HomeBridge.View {
-    private static final String BASE_URL = "https://www.themealdb.com/api/json/v1/1/";
+
     private RecyclerView recyclerViewRecipes, recyclerViewCategories, recyclerViewArreaes;
     private RandomAdapter recipeAdapter;
     private CategoryAdapter categoryAdapter;
@@ -45,8 +44,7 @@ public class Home_Activity extends AppCompatActivity implements HomeBridge.View 
     private List<Area> areaList = new ArrayList<>();
 
     HomePresenter homePresenter;
-//    MealsPresenter mealsPresenter;
-//    CategoriesPresenter categoriesPresenter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

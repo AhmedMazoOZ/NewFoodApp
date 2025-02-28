@@ -24,7 +24,7 @@ import com.example.foodplanner.Model.Network.RecipeApi;
 
 
 import com.example.foodplanner.R;
-import com.example.foodplanner.SearchScreen.Search;
+import com.example.foodplanner.SearchFeature.View.Search;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.List;
