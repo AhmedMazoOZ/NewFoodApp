@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginVertical="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inriasansbold"
+        android:text="Sign in"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+
+        />
+
+    <EditText
+        android:id="@+id/EmailEditText2"
+        android:layout_width="347dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corner"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:padding="16dp"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/PasswordEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_corner"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:padding="16dp"
+        android:textSize="20sp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signinBtn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8A47EB"
+        android:text="Sign in"
+        android:textColorLink="#8A47EB" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inriasansbold"
+            android:text="You dont have an account?"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/SignUpTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inriasansbold"
+            android:text="Sign up"
+            android:textSize="17sp"
+
+
+            android:textStyle="bold" />
+
+        >
+
+
+    </LinearLayout>
+
+</LinearLayout>
